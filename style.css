@@ -1,0 +1,96 @@
+/* Index */
+
+body.background-green {
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center the div horizontally */ background-color: green;
+margin: 0;
+}
+
+.center {
+    background-color: white;
+    
+    text-align: justify; /* Ensures text is left-aligned inside */
+    display: inline-block; /* Size the div to its content */
+    
+}
+
+h1 {
+font-size: 50px;
+}
+
+/* Asparagus-and-eggs */
+.asparagus-pic {
+    border-radius: 100px;
+    border: 10px solid blue;
+}
+body.asparagus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    background-image: url(./imgs/Asparagus-and-eggs.webp);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.asp {
+    padding-bottom: 20px;
+    font-family: 'Courier New','Times New Roman',sans-serif;
+    font-size: 50px;
+}
+
+.alligned-together {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-centered {
+    display: flex;
+    flex-direction: column;
+    max-width: 100ch;
+}
+/* Broccoli-Alfredo-Pasta*/
+
+.broccoli{
+ display: flex ;
+ flex-direction: column;
+ align-items: center ;
+ background-color: aquamarine;
+}
+
+.broccoli-pics {
+    border-radius:10px 10px 300px 0px;
+    border: 100px red;
+}
+
+/* Roasted-Pork-Loin */
+
+.pork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./imgs/21766-roasted-pork-loin-DDMFS-4x3-42648a2d6acf4ef3a05124ef5010c4fb.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+
+li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: monospace, 'Lucida Grande', Arial, serif;
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 75% ;
+
+}
+
+.pork-loin {
+    border-radius: 10px;
+}
